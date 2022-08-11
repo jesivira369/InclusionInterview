@@ -10,7 +10,7 @@ interface IStatusDetail {
 const StatusDetail: FC<IStatusDetail> = ({ endpoint }) => {
     const [openModal, setOpenModal] = useState(false)
     const [isAPIHealthy, setIsAPIHealthy] = useState(true)
-    const [timeOfRefetch, setTimeOfRefetch] = useState(15)
+    const timeToRefetch = 15
 
     const handleClose = () => {
         setOpenModal(false);
@@ -35,7 +35,7 @@ const StatusDetail: FC<IStatusDetail> = ({ endpoint }) => {
     );
 
     useEffect(() => {
-        setInterval(refetchData, timeOfRefetch * 1000)
+        setInterval(refetchData, timeToRefetch * 1000)
     }, [])
 
     if (isEndpointLoading) {
