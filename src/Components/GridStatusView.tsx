@@ -1,7 +1,6 @@
-import React, { FC, useState } from 'react';
-import { Container, Grid, TextField } from '@mui/material';
+import React, { FC } from 'react';
+import { Container, Grid } from '@mui/material';
 import StatusDetail from './StatusDetail';
-import { debounce } from 'lodash';
 
 const endpointList = [
     'accounts',
@@ -25,7 +24,6 @@ const endpointList = [
 ]
 
 const GridStatusView: FC = () => {
-
   return (
     <Container>
         <Grid container spacing={3}>
