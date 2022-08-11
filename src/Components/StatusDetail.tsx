@@ -36,7 +36,7 @@ const StatusDetail: FC<IStatusDetail> = ({ endpoint }) => {
 
     useEffect(() => {
         setInterval(refetchData, timeToRefetch * 1000)
-    }, [])
+    }, [timeToRefetch])
 
     if (isEndpointLoading) {
         return (

@@ -14,8 +14,8 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "react": "^18.2.0",
     "lodash": "^4.17.21",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-query": "^3.39.2",
     "react-scripts": "5.0.1",
@@ -47,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-query": "^1.2.9",
-    "@types/lodash": "^4.14.182"
+    "@types/lodash": "^4.14.182",
+    "@types/react-query": "^1.2.9"
   }
 }
