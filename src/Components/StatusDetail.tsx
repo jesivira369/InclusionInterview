@@ -3,10 +3,8 @@ import { Card, Typography, Chip, Button, Dialog, DialogTitle, DialogContent, Dia
 import { useQuery } from 'react-query';
 import { getAPITime } from '../utils/getAPITime';
 
-
 interface IStatusDetail {
     endpoint: string;
-    timeOfRefetch: number;
 }
 
 const StatusDetail: FC<IStatusDetail> = ({ endpoint }) => {
