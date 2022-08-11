@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Go to the PDF in the repository to see the challenge description
+
+##
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
